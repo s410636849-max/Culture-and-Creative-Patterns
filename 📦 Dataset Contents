@@ -1,0 +1,14 @@
+images/
+├─ train/
+│ ├─ ai_generated/ (350 images)
+│ └─ human_created/ (350 images)
+└─ test/
+├─ ai_generated/ (150 images)
+└─ human_created/ (150 images)
+
+labels.csv
+A CSV file with columns:
+
+filename,label,split
+train/ai_generated/img_001.jpg,ai_generated,train
+test/human_created/img_851.jpg,human_created,test
